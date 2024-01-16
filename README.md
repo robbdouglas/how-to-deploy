@@ -33,3 +33,16 @@ $ git remote add origin https://github.com/{username}/{repo-name}.git
 
 skip this step if you already have a remote repo
 
+7. go to vite.config.js and add the following lines of code:
+
+```js
+base: '/how-to-deploy',
+```
+
+8. terminal:
+
+```bash
+npm run deploy
+```
+
+9. go to GitHub repo and refresh the page. now you should see 2 branches
