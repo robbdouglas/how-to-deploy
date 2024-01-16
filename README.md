@@ -46,3 +46,5 @@ npm run deploy
 ```
 
 9. go to GitHub repo and refresh the page. now you should see 2 branches
+
+10. go to your repo  and click on the settings button right next to "about"! then click on the checkbox "Use your GitHub Pages website" and apply your settings
