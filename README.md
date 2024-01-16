@@ -64,3 +64,25 @@ ___
 5. enter a name, a branch (main), a ".", and "/dist" to publish directory
 
 6. click on "Create Static Site" and wait until your site is deployed
+
+7. if you just see a white website when clicking your deployed url, then
+
+- add the following line to your index.html head:
+
+```html
+    <base href="/">
+```
+
+- edit the following line in your package.json:
+
+```json
+    "build": "vite build",
+```
+
+to 
+
+```json
+    "build": "vite build --base=./",
+```
+
+8. to make sure that you will always see the latest version of your website, go to the Render website, navigate to your repo and change the blue "Manual Deploy" button to "Deploy latest commit"
