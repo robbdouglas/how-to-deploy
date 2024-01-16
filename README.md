@@ -48,3 +48,19 @@ npm run deploy
 9. go to GitHub repo and refresh the page. now you should see 2 branches
 
 10. go to your repo  and click on the settings button right next to "about"! then click on the checkbox "Use your GitHub Pages website" and apply your settings
+
+___
+
+# How to deploy a React Vite project with Render
+
+1. go to the [Render](https://render.com/) website and create an account
+
+2. log in
+
+3. click "new" and choose "static site"
+
+4. choose your repo
+
+5. enter a name, a branch (main), a ".", and "/dist" to publish directory
+
+6. click on "Create Static Site" and wait until your site is deployed
